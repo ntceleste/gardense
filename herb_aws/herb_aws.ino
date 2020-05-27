@@ -20,6 +20,7 @@
   This example code is in the public domain.
 */
 
+#include <ArduinoJson.h>
 #include <ArduinoBearSSL.h>
 #include <ArduinoECCX08.h>
 #include <ArduinoMqttClient.h>
@@ -131,11 +132,24 @@ void connectMQTT() {
 
 void publishMessage() {
   Serial.println("Publishing message");
+  
+  StaticJsonDocument<200> JSONbuffer;
+  JsonObject JSONencoder = JSONbuffer.to<JsonObject>();
+
+  JSONencoder["planterID"] = 1;
+  JSONencoder["timestamp"] = 1590518747;
+  JSONencoder["temp"] = random(60, 100);
+  JSONencoder["moisture"] = random(100);
+  JSONencoder["light"] = random(100);
+
+  char JSONmessageBuffer[100];
+  serializeJson(JSONencoder, JSONmessageBuffer, sizeof(JSONmessageBuffer));
+  Serial.println("Sending message to MQTT topic..");
+  Serial.println(JSONmessageBuffer);
 
   // send message, the Print interface can be used to set the message contents
-  mqttClient.beginMessage("arduino/outgoing");
-  mqttClient.print("hello ");
-  mqttClient.print(millis());
+  mqttClient.beginMessage("gardense/outgoing");
+  mqttClient.print(JSONmessageBuffer);
   mqttClient.endMessage();
 }
 
