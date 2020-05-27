@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		436D7E15247EE1A400C19FF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436D7E14247EE1A400C19FF2 /* AppDelegate.swift */; };
+		436D7E17247EE1A400C19FF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436D7E16247EE1A400C19FF2 /* SceneDelegate.swift */; };
+		436D7E1A247EE1A400C19FF2 /* Gardense.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 436D7E18247EE1A400C19FF2 /* Gardense.xcdatamodeld */; };
+		436D7E1C247EE1A400C19FF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436D7E1B247EE1A400C19FF2 /* ContentView.swift */; };
+		436D7E1E247EE1A600C19FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436D7E1D247EE1A600C19FF2 /* Assets.xcassets */; };
+		436D7E21247EE1A600C19FF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436D7E20247EE1A600C19FF2 /* Preview Assets.xcassets */; };
+		436D7E24247EE1A600C19FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436D7E22247EE1A600C19FF2 /* LaunchScreen.storyboard */; };
+		436D7E2F247EE1A600C19FF2 /* GardenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436D7E2E247EE1A600C19FF2 /* GardenseTests.swift */; };
+		436D7E3A247EE1A600C19FF2 /* GardenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436D7E39247EE1A600C19FF2 /* GardenseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		436D7E2B247EE1A600C19FF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 436D7E09247EE1A400C19FF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 436D7E10247EE1A400C19FF2;
+			remoteInfo = Gardense;
+		};
+		436D7E36247EE1A600C19FF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 436D7E09247EE1A400C19FF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 436D7E10247EE1A400C19FF2;
+			remoteInfo = Gardense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		436D7E11247EE1A400C19FF2 /* Gardense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gardense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		436D7E14247EE1A400C19FF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		436D7E16247EE1A400C19FF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		436D7E19247EE1A400C19FF2 /* Gardense.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gardense.xcdatamodel; sourceTree = "<group>"; };
+		436D7E1B247EE1A400C19FF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		436D7E1D247EE1A600C19FF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		436D7E20247EE1A600C19FF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		436D7E23247EE1A600C19FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		436D7E25247EE1A600C19FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436D7E2A247EE1A600C19FF2 /* GardenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		436D7E2E247EE1A600C19FF2 /* GardenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenseTests.swift; sourceTree = "<group>"; };
+		436D7E30247EE1A600C19FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436D7E35247EE1A600C19FF2 /* GardenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		436D7E39247EE1A600C19FF2 /* GardenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenseUITests.swift; sourceTree = "<group>"; };
+		436D7E3B247EE1A600C19FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		436D7E0E247EE1A400C19FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436D7E27247EE1A600C19FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436D7E32247EE1A600C19FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		436D7E08247EE1A400C19FF2 = {
+			isa = PBXGroup;
+			children = (
+				436D7E13247EE1A400C19FF2 /* Gardense */,
+				436D7E2D247EE1A600C19FF2 /* GardenseTests */,
+				436D7E38247EE1A600C19FF2 /* GardenseUITests */,
+				436D7E12247EE1A400C19FF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		436D7E12247EE1A400C19FF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				436D7E11247EE1A400C19FF2 /* Gardense.app */,
+				436D7E2A247EE1A600C19FF2 /* GardenseTests.xctest */,
+				436D7E35247EE1A600C19FF2 /* GardenseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		436D7E13247EE1A400C19FF2 /* Gardense */ = {
+			isa = PBXGroup;
+			children = (
+				436D7E14247EE1A400C19FF2 /* AppDelegate.swift */,
+				436D7E16247EE1A400C19FF2 /* SceneDelegate.swift */,
+				436D7E1B247EE1A400C19FF2 /* ContentView.swift */,
+				436D7E1D247EE1A600C19FF2 /* Assets.xcassets */,
+				436D7E22247EE1A600C19FF2 /* LaunchScreen.storyboard */,
+				436D7E25247EE1A600C19FF2 /* Info.plist */,
+				436D7E18247EE1A400C19FF2 /* Gardense.xcdatamodeld */,
+				436D7E1F247EE1A600C19FF2 /* Preview Content */,
+			);
+			path = Gardense;
+			sourceTree = "<group>";
+		};
+		436D7E1F247EE1A600C19FF2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				436D7E20247EE1A600C19FF2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		436D7E2D247EE1A600C19FF2 /* GardenseTests */ = {
+			isa = PBXGroup;
+			children = (
+				436D7E2E247EE1A600C19FF2 /* GardenseTests.swift */,
+				436D7E30247EE1A600C19FF2 /* Info.plist */,
+			);
+			path = GardenseTests;
+			sourceTree = "<group>";
+		};
+		436D7E38247EE1A600C19FF2 /* GardenseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				436D7E39247EE1A600C19FF2 /* GardenseUITests.swift */,
+				436D7E3B247EE1A600C19FF2 /* Info.plist */,
+			);
+			path = GardenseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		436D7E10247EE1A400C19FF2 /* Gardense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436D7E3E247EE1A600C19FF2 /* Build configuration list for PBXNativeTarget "Gardense" */;
+			buildPhases = (
+				436D7E0D247EE1A400C19FF2 /* Sources */,
+				436D7E0E247EE1A400C19FF2 /* Frameworks */,
+				436D7E0F247EE1A400C19FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gardense;
+			productName = Gardense;
+			productReference = 436D7E11247EE1A400C19FF2 /* Gardense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		436D7E29247EE1A600C19FF2 /* GardenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436D7E41247EE1A600C19FF2 /* Build configuration list for PBXNativeTarget "GardenseTests" */;
+			buildPhases = (
+				436D7E26247EE1A600C19FF2 /* Sources */,
+				436D7E27247EE1A600C19FF2 /* Frameworks */,
+				436D7E28247EE1A600C19FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				436D7E2C247EE1A600C19FF2 /* PBXTargetDependency */,
+			);
+			name = GardenseTests;
+			productName = GardenseTests;
+			productReference = 436D7E2A247EE1A600C19FF2 /* GardenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		436D7E34247EE1A600C19FF2 /* GardenseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436D7E44247EE1A600C19FF2 /* Build configuration list for PBXNativeTarget "GardenseUITests" */;
+			buildPhases = (
+				436D7E31247EE1A600C19FF2 /* Sources */,
+				436D7E32247EE1A600C19FF2 /* Frameworks */,
+				436D7E33247EE1A600C19FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				436D7E37247EE1A600C19FF2 /* PBXTargetDependency */,
+			);
+			name = GardenseUITests;
+			productName = GardenseUITests;
+			productReference = 436D7E35247EE1A600C19FF2 /* GardenseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		436D7E09247EE1A400C19FF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Nate;
+				TargetAttributes = {
+					436D7E10247EE1A400C19FF2 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					436D7E29247EE1A600C19FF2 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 436D7E10247EE1A400C19FF2;
+					};
+					436D7E34247EE1A600C19FF2 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 436D7E10247EE1A400C19FF2;
+					};
+				};
+			};
+			buildConfigurationList = 436D7E0C247EE1A400C19FF2 /* Build configuration list for PBXProject "Gardense" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 436D7E08247EE1A400C19FF2;
+			productRefGroup = 436D7E12247EE1A400C19FF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				436D7E10247EE1A400C19FF2 /* Gardense */,
+				436D7E29247EE1A600C19FF2 /* GardenseTests */,
+				436D7E34247EE1A600C19FF2 /* GardenseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		436D7E0F247EE1A400C19FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436D7E24247EE1A600C19FF2 /* LaunchScreen.storyboard in Resources */,
+				436D7E21247EE1A600C19FF2 /* Preview Assets.xcassets in Resources */,
+				436D7E1E247EE1A600C19FF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436D7E28247EE1A600C19FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436D7E33247EE1A600C19FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		436D7E0D247EE1A400C19FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436D7E15247EE1A400C19FF2 /* AppDelegate.swift in Sources */,
+				436D7E1A247EE1A400C19FF2 /* Gardense.xcdatamodeld in Sources */,
+				436D7E1C247EE1A400C19FF2 /* ContentView.swift in Sources */,
+				436D7E17247EE1A400C19FF2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436D7E26247EE1A600C19FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436D7E2F247EE1A600C19FF2 /* GardenseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436D7E31247EE1A600C19FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436D7E3A247EE1A600C19FF2 /* GardenseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		436D7E2C247EE1A600C19FF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 436D7E10247EE1A400C19FF2 /* Gardense */;
+			targetProxy = 436D7E2B247EE1A600C19FF2 /* PBXContainerItemProxy */;
+		};
+		436D7E37247EE1A600C19FF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 436D7E10247EE1A400C19FF2 /* Gardense */;
+			targetProxy = 436D7E36247EE1A600C19FF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		436D7E22247EE1A600C19FF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				436D7E23247EE1A600C19FF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		436D7E3C247EE1A600C19FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		436D7E3D247EE1A600C19FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		436D7E3F247EE1A600C19FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Gardense/Preview Content\"";
+				DEVELOPMENT_TEAM = 6A9CX9279G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Gardense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.clst.nate.Gardense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		436D7E40247EE1A600C19FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Gardense/Preview Content\"";
+				DEVELOPMENT_TEAM = 6A9CX9279G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Gardense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.clst.nate.Gardense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		436D7E42247EE1A600C19FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A9CX9279G;
+				INFOPLIST_FILE = GardenseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.clst.nate.GardenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gardense.app/Gardense";
+			};
+			name = Debug;
+		};
+		436D7E43247EE1A600C19FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A9CX9279G;
+				INFOPLIST_FILE = GardenseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.clst.nate.GardenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gardense.app/Gardense";
+			};
+			name = Release;
+		};
+		436D7E45247EE1A600C19FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A9CX9279G;
+				INFOPLIST_FILE = GardenseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.clst.nate.GardenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gardense;
+			};
+			name = Debug;
+		};
+		436D7E46247EE1A600C19FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A9CX9279G;
+				INFOPLIST_FILE = GardenseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.clst.nate.GardenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gardense;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		436D7E0C247EE1A400C19FF2 /* Build configuration list for PBXProject "Gardense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436D7E3C247EE1A600C19FF2 /* Debug */,
+				436D7E3D247EE1A600C19FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		436D7E3E247EE1A600C19FF2 /* Build configuration list for PBXNativeTarget "Gardense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436D7E3F247EE1A600C19FF2 /* Debug */,
+				436D7E40247EE1A600C19FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		436D7E41247EE1A600C19FF2 /* Build configuration list for PBXNativeTarget "GardenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436D7E42247EE1A600C19FF2 /* Debug */,
+				436D7E43247EE1A600C19FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		436D7E44247EE1A600C19FF2 /* Build configuration list for PBXNativeTarget "GardenseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436D7E45247EE1A600C19FF2 /* Debug */,
+				436D7E46247EE1A600C19FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		436D7E18247EE1A400C19FF2 /* Gardense.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				436D7E19247EE1A400C19FF2 /* Gardense.xcdatamodel */,
+			);
+			currentVersion = 436D7E19247EE1A400C19FF2 /* Gardense.xcdatamodel */;
+			path = Gardense.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 436D7E09247EE1A400C19FF2 /* Project object */;
+}
