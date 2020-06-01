@@ -137,7 +137,6 @@ void publishMessage() {
   JsonObject JSONencoder = JSONbuffer.to<JsonObject>();
 
   JSONencoder["planterID"] = 1;
-  JSONencoder["timestamp"] = 1590518747;
   JSONencoder["temp"] = random(60, 100);
   JSONencoder["moisture"] = random(100);
   JSONencoder["light"] = random(100);
