@@ -6,19 +6,10 @@ target 'Gardense' do
   use_frameworks!
 
   # Pods for Gardense
-
   pod 'Amplify'
   pod 'Amplify/Tools'
   pod 'AmplifyPlugins/AWSAPIPlugin'
   pod 'AmplifyPlugins/AWSDataStorePlugin'
 
-  target 'GardenseTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'GardenseUITests' do
-    # Pods for testing
-  end
 
 end

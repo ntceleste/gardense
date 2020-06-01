@@ -3,12 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1263EA7BD8F78489FB9E639E /* Pods_Gardense_GardenseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3331315434ED35DE9B31505 /* Pods_Gardense_GardenseUITests.framework */; };
-		343BB2CCC9704A28B6A57C66 /* Pods_GardenseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02EC2ECFD964E8DA1A62D18 /* Pods_GardenseTests.framework */; };
 		436D7E15247EE1A400C19FF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436D7E14247EE1A400C19FF2 /* AppDelegate.swift */; };
 		436D7E17247EE1A400C19FF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436D7E16247EE1A400C19FF2 /* SceneDelegate.swift */; };
 		436D7E1A247EE1A400C19FF2 /* Gardense.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 436D7E18247EE1A400C19FF2 /* Gardense.xcdatamodeld */; };
@@ -19,6 +17,8 @@
 		436D7E2F247EE1A600C19FF2 /* GardenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436D7E2E247EE1A600C19FF2 /* GardenseTests.swift */; };
 		436D7E3A247EE1A600C19FF2 /* GardenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436D7E39247EE1A600C19FF2 /* GardenseUITests.swift */; };
 		CCF913B7DB9C82E28BB0893D /* Pods_Gardense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C2820DA86D153314974F9A /* Pods_Gardense.framework */; };
+		C9C7309EAEDF47458A81AB0E /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 96D96583ADA34A918AEAFED4 /* amplifyconfiguration.json */; };
+		C736665CE1A041F8BACD7A03 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C8CADB8C90440E5A0F7302D /* awsconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,14 +55,12 @@
 		436D7E39247EE1A600C19FF2 /* GardenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenseUITests.swift; sourceTree = "<group>"; };
 		436D7E3B247EE1A600C19FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		749B2DBAD28B29AE49C6DC6F /* Pods-Gardense.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gardense.release.xcconfig"; path = "Target Support Files/Pods-Gardense/Pods-Gardense.release.xcconfig"; sourceTree = "<group>"; };
-		7DC26EB76E6CF1AC73D52B9A /* Pods-Gardense-GardenseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gardense-GardenseUITests.release.xcconfig"; path = "Target Support Files/Pods-Gardense-GardenseUITests/Pods-Gardense-GardenseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A6EA87D998FC1187AE3DF86C /* Pods-Gardense.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gardense.debug.xcconfig"; path = "Target Support Files/Pods-Gardense/Pods-Gardense.debug.xcconfig"; sourceTree = "<group>"; };
-		B3331315434ED35DE9B31505 /* Pods_Gardense_GardenseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gardense_GardenseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C2820DA86D153314974F9A /* Pods_Gardense.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gardense.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF261B296F829A707D94EB06 /* Pods-GardenseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GardenseTests.debug.xcconfig"; path = "Target Support Files/Pods-GardenseTests/Pods-GardenseTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DACC252C6BE04E775DF00750 /* Pods-Gardense-GardenseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gardense-GardenseUITests.debug.xcconfig"; path = "Target Support Files/Pods-Gardense-GardenseUITests/Pods-Gardense-GardenseUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		DBF05F3173487C13515AB6F9 /* Pods-GardenseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GardenseTests.release.xcconfig"; path = "Target Support Files/Pods-GardenseTests/Pods-GardenseTests.release.xcconfig"; sourceTree = "<group>"; };
-		F02EC2ECFD964E8DA1A62D18 /* Pods_GardenseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GardenseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0023ABB2EAF74124A98A0C98 /* amplifytools.xcconfig */ = {isa = PBXFileReference; name = "amplifytools.xcconfig"; path = "amplifytools.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.xcconfig; explicitFileType = undefined; includeInIndex = 0; };
+		96D96583ADA34A918AEAFED4 /* amplifyconfiguration.json */ = {isa = PBXFileReference; name = "amplifyconfiguration.json"; path = "amplifyconfiguration.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2C8CADB8C90440E5A0F7302D /* awsconfiguration.json */ = {isa = PBXFileReference; name = "awsconfiguration.json"; path = "awsconfiguration.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C9DBE1C140DF4F84AC302FAC /* schema.graphql */ = {isa = PBXFileReference; name = "schema.graphql"; path = "amplify/backend/api/amplifyDatasource/schema.graphql"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				343BB2CCC9704A28B6A57C66 /* Pods_GardenseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +83,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1263EA7BD8F78489FB9E639E /* Pods_Gardense_GardenseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,8 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				B5C2820DA86D153314974F9A /* Pods_Gardense.framework */,
-				B3331315434ED35DE9B31505 /* Pods_Gardense_GardenseUITests.framework */,
-				F02EC2ECFD964E8DA1A62D18 /* Pods_GardenseTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,6 +100,7 @@
 		436D7E08247EE1A400C19FF2 = {
 			isa = PBXGroup;
 			children = (
+				5A0C7878B4D146019B635C29 /* AmplifyConfig */,
 				436D7E13247EE1A400C19FF2 /* Gardense */,
 				436D7E2D247EE1A600C19FF2 /* GardenseTests */,
 				436D7E38247EE1A600C19FF2 /* GardenseUITests */,
@@ -171,13 +166,20 @@
 			children = (
 				A6EA87D998FC1187AE3DF86C /* Pods-Gardense.debug.xcconfig */,
 				749B2DBAD28B29AE49C6DC6F /* Pods-Gardense.release.xcconfig */,
-				DACC252C6BE04E775DF00750 /* Pods-Gardense-GardenseUITests.debug.xcconfig */,
-				7DC26EB76E6CF1AC73D52B9A /* Pods-Gardense-GardenseUITests.release.xcconfig */,
-				CF261B296F829A707D94EB06 /* Pods-GardenseTests.debug.xcconfig */,
-				DBF05F3173487C13515AB6F9 /* Pods-GardenseTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		5A0C7878B4D146019B635C29 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				0023ABB2EAF74124A98A0C98 /* amplifytools.xcconfig */,
+				96D96583ADA34A918AEAFED4 /* amplifyconfiguration.json */,
+				2C8CADB8C90440E5A0F7302D /* awsconfiguration.json */,
+				C9DBE1C140DF4F84AC302FAC /* schema.graphql */,
+			);
+			name = AmplifyConfig;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +190,7 @@
 			buildConfigurationList = 436D7E3E247EE1A600C19FF2 /* Build configuration list for PBXNativeTarget "Gardense" */;
 			buildPhases = (
 				5B98B33A85F95CEEA31AB80E /* [CP] Check Pods Manifest.lock */,
+				43B68A3B2485783900F89457 /* Run Amplify Tools */,
 				436D7E0D247EE1A400C19FF2 /* Sources */,
 				436D7E0E247EE1A400C19FF2 /* Frameworks */,
 				436D7E0F247EE1A400C19FF2 /* Resources */,
@@ -206,7 +209,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 436D7E41247EE1A600C19FF2 /* Build configuration list for PBXNativeTarget "GardenseTests" */;
 			buildPhases = (
-				E15C5FB99751D13251DF2EF1 /* [CP] Check Pods Manifest.lock */,
 				436D7E26247EE1A600C19FF2 /* Sources */,
 				436D7E27247EE1A600C19FF2 /* Frameworks */,
 				436D7E28247EE1A600C19FF2 /* Resources */,
@@ -225,11 +227,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 436D7E44247EE1A600C19FF2 /* Build configuration list for PBXNativeTarget "GardenseUITests" */;
 			buildPhases = (
-				16C20655F43B8E024C19EB45 /* [CP] Check Pods Manifest.lock */,
 				436D7E31247EE1A600C19FF2 /* Sources */,
 				436D7E32247EE1A600C19FF2 /* Frameworks */,
 				436D7E33247EE1A600C19FF2 /* Resources */,
-				2EADF89436826C3FE7C8BA99 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,6 +292,8 @@
 				436D7E24247EE1A600C19FF2 /* LaunchScreen.storyboard in Resources */,
 				436D7E21247EE1A600C19FF2 /* Preview Assets.xcassets in Resources */,
 				436D7E1E247EE1A600C19FF2 /* Assets.xcassets in Resources */,
+				C9C7309EAEDF47458A81AB0E /* amplifyconfiguration.json in Resources */,
+				C736665CE1A041F8BACD7A03 /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +314,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		16C20655F43B8E024C19EB45 /* [CP] Check Pods Manifest.lock */ = {
+		43B68A3B2485783900F89457 /* Run Amplify Tools */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,36 +322,15 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "Run Amplify Tools";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Gardense-GardenseUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2EADF89436826C3FE7C8BA99 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Gardense-GardenseUITests/Pods-Gardense-GardenseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Gardense-GardenseUITests/Pods-Gardense-GardenseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gardense-GardenseUITests/Pods-Gardense-GardenseUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "${PODS_ROOT}/AmplifyTools/amplify-tools.sh\n";
 		};
 		5B98B33A85F95CEEA31AB80E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -388,28 +369,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gardense/Pods-Gardense-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E15C5FB99751D13251DF2EF1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GardenseTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -627,7 +586,6 @@
 		};
 		436D7E42247EE1A600C19FF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF261B296F829A707D94EB06 /* Pods-GardenseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -650,7 +608,6 @@
 		};
 		436D7E43247EE1A600C19FF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBF05F3173487C13515AB6F9 /* Pods-GardenseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -673,7 +630,6 @@
 		};
 		436D7E45247EE1A600C19FF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DACC252C6BE04E775DF00750 /* Pods-Gardense-GardenseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -694,7 +650,6 @@
 		};
 		436D7E46247EE1A600C19FF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DC26EB76E6CF1AC73D52B9A /* Pods-Gardense-GardenseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
