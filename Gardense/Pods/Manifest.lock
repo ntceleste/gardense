@@ -1,0 +1,72 @@
+PODS:
+  - Amplify (1.0.0):
+    - Amplify/Default (= 1.0.0)
+  - Amplify/Default (1.0.0)
+  - Amplify/Tools (1.0.0)
+  - AmplifyPlugins/AWSAPIPlugin (1.0.0):
+    - AppSyncRealTimeClient (~> 1.1.0)
+    - AWSPluginsCore (= 1.0.0)
+    - ReachabilitySwift (~> 5.0.0)
+  - AmplifyPlugins/AWSDataStorePlugin (1.0.0):
+    - AWSPluginsCore (= 1.0.0)
+    - SQLite.swift (~> 0.12.0)
+  - AppSyncRealTimeClient (1.1.6):
+    - Starscream (= 3.0.6)
+  - AWSAuthCore (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSCognitoIdentityProvider (2.13.4):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.13.4)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.13.4)
+  - AWSMobileClient (2.13.4):
+    - AWSAuthCore (= 2.13.4)
+    - AWSCognitoIdentityProvider (= 2.13.4)
+  - AWSPluginsCore (1.0.0):
+    - Amplify (= 1.0.0)
+    - AWSCore (~> 2.13.4)
+    - AWSMobileClient (~> 2.13.4)
+  - ReachabilitySwift (5.0.0)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - Starscream (3.0.6)
+
+DEPENDENCIES:
+  - Amplify
+  - Amplify/Tools
+  - AmplifyPlugins/AWSAPIPlugin
+  - AmplifyPlugins/AWSDataStorePlugin
+
+SPEC REPOS:
+  trunk:
+    - Amplify
+    - AmplifyPlugins
+    - AppSyncRealTimeClient
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSPluginsCore
+    - ReachabilitySwift
+    - SQLite.swift
+    - Starscream
+
+SPEC CHECKSUMS:
+  Amplify: d993f9ab89645ffa58616b23f95a22e1038f46a2
+  AmplifyPlugins: 6f341b2013ba8a7389097287333324c8beeb43bd
+  AppSyncRealTimeClient: 4a2ccdc1722750a1f4d76e216f9bfb1cf12f10de
+  AWSAuthCore: 72b4bd064c28985ea5345c62759632d511de342a
+  AWSCognitoIdentityProvider: a2d1d2857316519c018c03ac8205cf78154db5c0
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 06beea22b6bdbfe9f5ab5015c6901e8475c746a8
+  AWSMobileClient: 33ecce524fbc011d543dae8306ca29a43ecb72e5
+  AWSPluginsCore: bf9e284d77603892740526377af767498697b729
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+
+PODFILE CHECKSUM: 016678b377d7cd335d01f23e22f1403cb50f55bf
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,6 @@
+framework module Pods_Gardense {
+  umbrella header "Pods-Gardense-umbrella.h"
+
+  export *
+  module * { export * }
+}
